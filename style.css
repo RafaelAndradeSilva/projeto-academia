@@ -1,0 +1,99 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #212020;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Fonts */
+h1, h2, h3, .price {
+  font-family: 'Roboto Serif', serif;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* HEADER */
+header {
+  padding: 32px 0;
+  text-align: center;
+}
+
+header,
+section {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: rgb(82, 82, 82);
+}
+
+header h1 span {
+  color: #f0e806;
+}
+
+/* SECTION */
+section {
+  margin-bottom: 24px;
+}
+
+section h2 {
+  background-color: #4500b3;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+
+  margin-bottom: 24px;
+  
+  font-size: 18px;
+}
+
+.horarios {
+  color: blue;
+}
+
+/* LISTA */
+ul li {
+  margin-bottom: 16px;
+  
+  display: inline-flex;
+}
+
+li .details {
+  max-width: 240px;
+}
+
+.details h3 {
+  margin-bottom: 8px;
+
+  font-size: 16px;
+  line-height: 19px;
+}
+
+li .descripition {
+  color: white;
+
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.price {
+  color: white;
+
+  display: block;
+  margin: 0 0 40px;
+
+  background-color: green; 
+}
